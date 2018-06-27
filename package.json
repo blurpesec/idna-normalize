@@ -1,0 +1,16 @@
+{
+  "name": "idna-normalize",
+  "version": "1.0.0",
+  "description": "Normalize IDNA domains in homograph attacks to equivalent ASCII domain names.",
+  "main": "normalize.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "keywords": [
+    "punycode",
+    "idna",
+    "homograph-attack"
+  ],
+  "author": "blurpesec",
+  "license": "MIT"
+}
