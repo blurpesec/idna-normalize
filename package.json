@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "Normalize IDNA domains in homograph attacks to equivalent ASCII domain names.",
   "main": "normalize.js",
+  "repository" :
+  {
+    "type" : "git", 
+    "url" : "https://github.com/hahnmichaelf/idna-normalize.git"
+  }
   "scripts": {
     "test": "node example.js"
   },
+
   "keywords": [
     "punycode",
     "idna",
